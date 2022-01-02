@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+
+   <h1>Search</h1>
+   <form action="https://www.reddit.com/search">
+      <label for="reddit">Reddit Search</label>
+      <input type="text" name="q">
+      <button>Search Reddit</button>
+   </form>
+
+
+   <form action="https://www.google.com/search">
+      <label for="reddit">Google Search</label>
+      <input type="text" name="q">
+      <button>Search Google</button>
+   </form>
+
+   <form action="https://www.youtube.com/results">
+      <label for="reddit">Youtube  Search</label>
+      <input type="text" name="search_query">
+      <button>Search Youtube</button>
+   </form>
+   
+   <h2>More Inputs</h2>
+   <form action="/birds">
+      <input type="checkbox" name="agreeTos" id="agree">
+      <label for="agree">I agree to terms</label>
+      <p>
+         <label for="xs">XS:</label>
+         <input type="radio" name="size" id="xs" value="xs">
+         <label for="s">S:</label>
+         <input type="radio" name="size" id="s"value="s">
+         <label for="m">M:</label>
+         <input type="radio" name="size" id="m" value="m">
+      </p>
+
+      <p>
+         <label for="con">Select Console</label>
+         <select name="console" id="con">
+            <option value="">Please Choose Option</option>
+            <option value="PS2">PS2</option>
+            <option value="PS3">PS3</option>
+            <option value="PS4">PS4</option>
+            <option value="N64">N64</option>
+         </select>
+
+      </p>
+
+      <p>
+         <label for="budget">budget</label>
+         <input type="range" name="budget_price" id="budget" min="0" max="100" value="50" ste>
+      </p>
+
+      <p>
+         <label for="text">Text</label>
+         <br>
+         <textarea name="" id="text" cols="30" rows="10"></textarea>
+      </p>
+
+      <button>Submit</button>
+
+      <h2>Validations Demo</h2>
+      <form action="/Dummy">
+         <label for="first">Enter First Name</label>
+         <input type="text" name="first" id="first" required>
+         <p>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" minlength="5" maxlength="20" required>
+         </p>
+         
+         <button>Submit</button>
+      </form>
+   </form>
+
+
+
+</body>
+</html>
