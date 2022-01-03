@@ -1,0 +1,9 @@
+h1 {
+    font-family: monospace;
+    text-align : center;
+    font-weight : 100;
+    text-transform: uppercase;
+    font-size : 40px;
+    letter-spacing : 20px;
+    text-decoration: plum wavy underline;
+}
