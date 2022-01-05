@@ -1,0 +1,30 @@
+img {
+    width: 25%;
+    margin: calc(15%/6);
+    border: 3px solid black;
+    
+}
+
+#hi {
+    border: 2px solid black;
+}
+nav {
+    text-transform: uppercase;
+    border-bottom: 2px solid #17202A;
+    width: 30%;
+    margin: calc(10%/6);
+    padding: 1.2em 0;
+    font-family: 'Raleway';
+    font-size: 1.5em;
+}
+
+body {
+    background-color: #f1faee;
+}
+
+img:hover {
+    color : white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f4a261; 
+    transform: translateY(-0.25em);
+
+}
