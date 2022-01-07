@@ -2,6 +2,8 @@ img {
     width: 25%;
     margin: calc(15%/6);
     border: 3px solid black;
+    padding: 0.5%;
+
     
 }
 
@@ -22,9 +24,13 @@ body {
     background-color: #f1faee;
 }
 
-img:hover {
+img:hover  {
     color : white;
     box-shadow: 0 0.5em 0.5em -0.4em #f4a261; 
     transform: translateY(-0.25em);
+    border-color: #f4a261;
+}
 
+#hi:hover{
+    border-color: #f4a261;
 }
