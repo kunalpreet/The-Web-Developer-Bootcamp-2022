@@ -1,0 +1,21 @@
+{
+    "name": "my_package",
+    "description": "",
+    "version": "1.0.0",
+    "main": "./index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "type": "module",
+    "repository": {
+      "type": "module",
+      "url": ""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "engines": {
+        "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+      }
+      
+  }
