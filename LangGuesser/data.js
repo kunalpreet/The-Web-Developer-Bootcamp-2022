@@ -147,7 +147,7 @@ export const data = () => {
 		{ name: 'Oromo', local: 'Afaan Oromoo', '1': 'om', '2': 'orm', '2T': 'orm', '2B': 'orm', '3': 'orm' },
 		{ name: 'Oriya', local: 'ଓଡି଼ଆ', '1': 'or', '2': 'ori', '2T': 'ori', '2B': 'ori', '3': 'ori' },
 		{ name: 'Ossetian', local: 'Ирон æвзаг', '1': 'os', '2': 'oss', '2T': 'oss', '2B': 'oss', '3': 'oss' },
-		{ name: 'Panjabi', local: 'ਪੰਜਾਬੀ', '1': 'pa', '2': 'pan', '2T': 'pan', '2B': 'pan', '3': 'pan' },
+		{ name: 'Punjabi', local: 'ਪੰਜਾਬੀ', '1': 'pa', '2': 'pan', '2T': 'pan', '2B': 'pan', '3': 'pan' },
 		{ name: 'Pāli', local: 'पाऴि', '1': 'pi', '2': 'pli', '2T': 'pli', '2B': 'pli', '3': 'pli' },
 		{ name: 'Persian', local: 'فارسی', '1': 'fa', '2': 'fas', '2T': 'fas', '2B': 'per', '3': 'fas' },
 		{ name: 'Polish', local: 'Polski', '1': 'pl', '2': 'pol', '2T': 'pol', '2B': 'pol', '3': 'pol' },
