@@ -5,3 +5,5 @@ const add = (x, y) => {
 const pi = 3.14159;
 
 const square = (x) => x * x;
+
+console.log(pi);
